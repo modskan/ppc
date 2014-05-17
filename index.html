@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <title>お知らせタイマー</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/app2.css">
+    <link rel="stylesheet" type="text/css" href="css/alerm.css">
+  </head>
+  <body>
+    
+
+
+  <form>
+　　　　　予鈴時間<input size=5 type="text" id="firstBell" value="15">分
+　　　　　発表時間<input size=5 type="text" id="presentation" value="20">分
+　　　　　質疑応答<input size=5 type="text" id="discussion" value="5">分
+
+
+
+　　　　　<input type="button" id="start" value="START" onclick="startCountdown()" class="start">
+　　　　　<input type="button" id="reset" value="RESET" onclick="resetTimer()">
+　　</form>
+
+    <div id="countdown">
+      時間設定できるぞ？
+    </div>
+
+    <div id="countdown2">
+    </div>
+
+    <div id="countdown3">
+    </div>
+
+  
+    <script src="js/app.js"></script>
+  </body>
+</html>
